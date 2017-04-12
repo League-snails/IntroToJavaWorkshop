@@ -17,6 +17,7 @@ public class Spiral {
 		// 4. Do the following (steps 6-9) 75 times
 		for (int i = 0; i < 75; i++) {
 			coda.setRandomPenColor();
+			coda.sparkle();
 			coda.move(5*i);
 			coda.turn(360/7);
 			coda.setPenWidth(i);

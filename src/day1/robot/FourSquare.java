@@ -32,6 +32,7 @@ public class FourSquare {
 robert.penDown();
 robert.setSpeed(10);
 robert.setPenWidth(5);
+robert.sparkle();
 		robert.setRandomPenColor();
 		robert.move(100);
 		robert.turn(90);
